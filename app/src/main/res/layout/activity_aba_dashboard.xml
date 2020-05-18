@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- AppBar Block -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/app_color"
+        android:layout_height="52dp" >
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_margin="16dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@id/img_menu"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/aba_mobile"
+            android:textColor="@color/white_color"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/img_phone"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_phone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_toLeftOf="@id/img_phone"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_notification"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <!-- Body Block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!-- Menu Block -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:background="@color/app_background"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <!-- First row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="0dp" >
+
+                <!-- Account Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_accounts_balance" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/accounts"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Transfer Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_transfers" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/transfers"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Payment Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_payments" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/payments"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="0dp" >
+
+                <!-- Deposit Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_deposit" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/deposit"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- ECard Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_ecard" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/cash_to_atm"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Payment Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_virtual_card" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/virtual_card"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Third row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="0dp" >
+
+                <!-- QR Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_qr" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/qr_scanner_subtitle"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Loans Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_loans" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/loans"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!-- Location  Menu -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_location" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/aba_locator"
+                        android:textColor="@color/white_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Quick Transfer Block -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/light_blue"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_gravity="bottom|right"
+                android:layout_width="80dp"
+                android:src="@drawable/ic_transfers"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:paddingLeft="24dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_transfer" />
+
+                <TextView
+                    android:layout_marginRight="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_transfer_description" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <!-- Quick Payment Block -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/light_red" >
+
+            <ImageView
+                android:layout_gravity="bottom|right"
+                android:layout_width="80dp"
+                android:src="@drawable/ic_payments"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:paddingLeft="24dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_payment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_payment_description" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
