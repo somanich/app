@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">app</string>
+    <string name="greeting_text" translatable="false">Book your table!</string>
 
     <string name="qr_scanner_title">ABA Scan QR</string>
     <string name="qr_scanner_subtitle">Scan QR</string>
@@ -7,6 +8,36 @@
     <string name="qr_pay_manually">PAY MANUALLY</string>
 
     <string name="aba_mobile">ABA Mobile</string>
+
+    <!-- Main Activity -->
+    <string name="menu">Menu</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Restaurants Lists -->
+    <string-array name="restaurants">
+        <item>One More</item>
+        <item>Simply Delicious</item>
+        <item>Pepper Lunch</item>
+        <item>Burger King</item>
+        <item>Brown</item>
+        <item>Starbucks</item>
+        <item>Lucky Burger</item>
+        <item>Kobe</item>
+
+
+    </string-array>
+    
+    <string-array name="descriptions">
+        <item>Khmer-Thai Restaurant</item>
+        <item>Thai Restaurant</item>
+        <item>Western Restaurant</item>
+        <item>Fastfood</item>
+        <item>Coffee Shop</item>
+        <item>Coffee Shop</item>
+        <item>Fastfood</item>
+        <item>Japanese Restaurant</item>
+    </string-array>
 
     <!-- Dashboard -->
     <string name="dashboard_title">ABA Mobile</string>

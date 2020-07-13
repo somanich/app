@@ -4,10 +4,9 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="cream_color">#faecd1</color>
+    <color name="cream_color">#786e5a</color>
     <color name="white_color">#fff</color>
-    <color name="welcome_color">#000000</color>
-    <color name="black_color">#000000</color>
+    <color name="welcome_color">#fff</color>
 
     <color name="app_color">#01537B</color>
     <color name="app_background">#033C5D</color>
