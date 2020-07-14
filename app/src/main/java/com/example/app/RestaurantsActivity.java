@@ -2,6 +2,7 @@ package com.example.app;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
@@ -34,6 +35,8 @@ public class RestaurantsActivity extends AppCompatActivity {
         r2 =  getResources().getStringArray(R.array.descriptions);
 
         RecyclerViewAdapt recyclerViewadapt = new RecyclerViewAdapt(this, r1, r2, images,);
+        recyclerView.setAdapter(RecyclerViewAdapt);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     // public void onButtonClick(View view) {
