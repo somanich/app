@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="90dp"
+    android:layout_height="150dp"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/ic_burgerking"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="62dp"
+        android:layout_height="21dp"
+        android:text="Burger King"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/foodtypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Food"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/ic_burgerking"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="62dp"
+        android:layout_height="21dp"
+        android:text="Burger King"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/foodtypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Food"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="120dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

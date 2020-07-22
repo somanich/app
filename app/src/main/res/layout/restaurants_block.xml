@@ -33,6 +33,33 @@
                 android:textStyle="bold"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="7dp" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/black_color"
+        app:itemRippleColor="@color/white_color"
+        app:itemTextColor="@color/white_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation"
+        tools:layout_editor_absoluteX="-44dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_color"
+            app:srcCompat="@drawable/reservations" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/restaurants" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@
     <color name="cream_color">#786e5a</color>
     <color name="white_color">#fff</color>
     <color name="welcome_color">#fff</color>
+    <color name="account_bg"></color>
 
     <color name="app_color">#01537B</color>
     <color name="app_background">#033C5D</color>

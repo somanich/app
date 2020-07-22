@@ -5,32 +5,35 @@
 
     <!-- Cream Area -->
     <RelativeLayout
-        android:padding="16dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="#FAC38C">
+        android:layout_height="268dp"
+        android:background="@color/cream_color"
+        android:padding="16dp">
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="`Log Out"
-            android:textColor="#fff"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:background="#F9CB42"
+            android:backgroundTintMode="@null"
+            android:onClick="onButtonClick"
+            android:text="Home"
+            android:textColor="#fff" />
 
         <ImageView
             android:id="@+id/img_profile"
             android:layout_width="80dp"
-            android:src="@drawable/ic_profile"
+            android:layout_height="80dp"
             android:layout_centerInParent="true"
-            android:layout_height="80dp" />
+            android:src="@drawable/ic_profile" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:textColor="#fff"
-            android:text="Username"
+            android:layout_height="wrap_content"
             android:layout_below="@id/img_profile"
             android:layout_centerHorizontal="true"
-            android:layout_height="wrap_content" />
+            android:text="Chenda"
+            android:textColor="#fff" />
 
 
     </RelativeLayout>
@@ -38,5 +41,66 @@
     <!-- White Area -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Full Name"
+            android:textColor="@color/black_color"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:text="Chenda Chea"
+            android:textStyle="bold"
+            android:textColor="@color/black_color"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Date of Birth"
+            android:textColor="@color/black_color"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:text="January 1st, 1990"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:text="Set new Password"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:hint="Current Password"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:hint="New Password"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F9CB42"
+            android:onClick="onButtonClick"
+            android:text="Save"
+            android:textColor="#fff" />
+
+
+
+
+
+    </LinearLayout>
 </LinearLayout>
